@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_action_profil"
+            android:title="Profil" />
+        <item
+            android:id="@+id/kontak"
+            android:icon="@drawable/ic_action_kontak"
+            android:title="Kontak" />
+        <item
+            android:id="@+id/daftar_teman"
+            android:icon="@drawable/ic_action_daftarteman"
+            android:title="Daftar Teman" />
+    </group>
+
+    <item android:title="App">
+        <menu>
+            <item
+                android:id="@+id/exit"
+                android:icon="@drawable/ic_action_exit"
+                android:title="Exit" />
+        </menu>
+    </item>
+
+</menu>
